@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+   int A[12]={2,3,8,9,3,3,2,2,1,1,9,9};
+   int B[10]={0};
+   int i,j,n,count;
+
+ for(i=0;i<12;i++){
+     
+     B[A[i]]++;
+     }
+     
+for(i=0;i<=9;i++)
+{
+         for(j=0;j<B[i];j++)
+         {
+             printf("%d",i);
+         }
+     }
+    return 0;
+}
